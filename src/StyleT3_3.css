@@ -1,0 +1,191 @@
+        .main{
+            width: 1360px;
+            height: 650px;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .Header{
+            width: 1360px;
+            height: 55px;
+            background-color: rgb(238,238,238);
+        }
+        .text1{
+            color: rgb(201,29,29);
+            font: 30pt Calibri;
+            display: flex;
+            justify-content: center
+        }
+        .Wrapper{
+            width: 680px;
+            height: 595px;
+            display: flex;
+            justify-content: flex-end;
+            flex-wrap: wrap;
+            align-items: baseline;                
+        }
+        .Wrapper2{
+            width: 680px;
+            height: 550px;
+            display: flex;
+            justify-content: flex-end;
+            flex-wrap: wrap;
+            align-items: baseline;  
+        }
+        .WrapperText{
+            width: 680px;
+            height: 595px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        .effect{
+            width: 565px;
+            height: 320px;
+            margin-top: 50px;
+            padding: 5px;
+            border: 1px  solid lightgray;
+            overflow: hidden;
+            position: relative;
+        }
+        .effect img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .effect .caption {
+            position: absolute;
+            bottom: -100%;
+            left: 0px;
+            background: rgba(77,77,77,0.7);
+            width: 100%;
+            height: 100%;
+            color: rgb(255, 255, 255);
+            -webkit-transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s;
+            -o-transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s;  
+            -ms-transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s; 
+            -moz-transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s; 
+            transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s; 
+        }
+        
+        .effect:hover .caption {
+            bottom: 0px;
+        }
+
+        .effect .caption h4 {
+            font-size: 21px;
+            font-weight: 700;
+            text-transform: uppercase;
+            text-align: center;
+            border-bottom: 1px solid white;
+            padding-bottom: 20px;
+            margin-top: 20px;
+        }
+
+        .effect .caption p {
+            margin: 15px 0px;
+            text-align: center;
+            font-style: italic;
+            padding: 0px 10px;
+        }
+
+        .effect .caption a.btn {
+            width: 120px;
+            text-align: center;
+            display: block;
+            background: rgb(201,29,29);
+            color: rgb(255, 255, 255);
+            padding: 10px 0px;
+            border-radius: 5px;
+            margin: 0px auto 0px auto;
+        }
+        .BoxImg2{
+            width: 577px;
+            height: 93px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .effect2{
+            width: 123px;
+            height: 80px;
+            background-color: black;
+            overflow: hidden;
+            position: relative;
+        }
+        .effect2 img {
+            width: 100%;
+            height: 100%;
+        }
+        .effect2 .caption2 {
+             position: absolute;
+             top: 0px;
+             left: 100%;
+             background: rgba(77,77,77,0.9);
+             width: 100%;
+             height: 100%;
+             color: rgb(255, 255, 255);
+              -webkit-transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s;
+             -o-transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s;  
+             -ms-transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s; 
+             -moz-transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s; 
+             transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s; 
+        }
+        
+        .effect2:hover .caption2 {
+            left: 0px;
+        }
+
+        .effect2 .caption2 h6 {
+            font-size: 18px;
+            font-weight: 700;
+            text-transform: uppercase;
+            text-align: center;
+            padding-bottom: 20px;
+            margin-top: 20px;
+        }
+        
+        #marg{
+            margin-top: 28px;
+        }        
+        .WrapBoxImg3{
+            width: 134px;
+            height: 86px;
+            border: 1px  solid lightgray;
+            display: flex;
+            justify-content: center;
+            padding-top: 5px;
+        }
+        .textBox{
+            width: 480px;
+            height: 530px;
+        }
+        .text2{
+            font: 26pt Calibri;
+        }
+        .line{
+            width: 480px;
+            height: 3px;
+            background-color: rgb(201,29,29);
+            margin-bottom: 10px;
+        }
+
+        .text3Wrapp{
+            width: 480px;
+            height: 460px;
+            font-size: 13pt;
+            font-family: CaviarDreams;
+            text-align: justify;
+        }
+                
+        @font-face{
+            font-family: 'CaviarDreams';
+            src: url('D:/Javva_logos/_Html_forJava/HtmlForJavaHomework03/WebFont.eot');
+            src: url('D:/Javva_logos/_Html_forJava/HtmlForJavaHomework03/WebFont.eot?iefix') format('eot'),
+            url('D:/Javva_logos/_Html_forJava/HtmlForJavaHomework03/WebFont.woff') format('woff'),
+            url('D:/Javva_logos/_Html_forJava/HtmlForJavaHomework03/CaviarDreams.ttf') format('truetype'),
+            url('D:/Javva_logos/_Html_forJava/HtmlForJavaHomework03/WebFont.svg#webfont') format('svg');
+            font-weight: normal;
+            font-style: normal;
+}
